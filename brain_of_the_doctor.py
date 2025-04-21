@@ -21,7 +21,7 @@ def encode_image(image_path):
 
 # Step 3: Setup multimodal LLM
 query = "Analyze this skin condition."
-model = "llama-3.2-90b-vision-preview"
+model = "meta-llama/llama-4-scout-17b-16e-instruct"
 
 def analyze_with_query(image_path, query):
     """Analyze an image using GROQ's multimodal LLM."""
