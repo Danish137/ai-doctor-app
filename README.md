@@ -4,6 +4,8 @@
 
 A multimodal AI-powered medical assistant that processes images, text, and voice to generate intelligent diagnostic responses. Built using state-of-the-art GenAI models and APIs, the app enables users to interact via uploaded images and natural speech, receiving both text and spoken feedback.
 
+👉 **[Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/imdanishakhtar7/ai-doctor-app)**
+
 
 ## 🚀 Features
 
