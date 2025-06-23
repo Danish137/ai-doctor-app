@@ -43,19 +43,22 @@ A multimodal AI-powered medical assistant that processes images, text, and voice
    cd ai-doctor-app
    
 2. **Create and activate a virtual environment**
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
-3. **Install dependencies**
+4. **Install dependencies**
    pip install -r requirements.txt
 
-4. **Set your API keys**
+5. **Set your API keys**
    Create a .env file in the root directory with the following:
+   ```bash
 OPENAI_API_KEY=your_openai_key
 ELEVENLABS_API_KEY=your_elevenlabs_key
 GROQ_API_KEY=your_groq_key
 
-5. **Run the app**
+7. **Run the app**
+   ```bash
    python app.py
 
 ## Usage
