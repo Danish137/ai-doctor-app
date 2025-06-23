@@ -7,7 +7,7 @@ A multimodal AI-powered medical assistant that processes images, text, and voice
 
 ## 🚀 Features
 
-- 🧠 Uses Meta LLaMA 3 Vision 90B for image + text-based reasoning
+- 🧠 Uses Meta llama-4-scout-17b-16e-instruct for image + text-based reasoning
 - 🎤 Speech-to-text input with OpenAI Whisper
 - 🔊 Realistic voice responses using ElevenLabs TTS
 - 🌐 Clean Gradio interface for real-time interaction
@@ -17,7 +17,7 @@ A multimodal AI-powered medical assistant that processes images, text, and voice
 
 - **Python**
 - **Gradio** (UI & interface)
-- **Meta LLaMA 3 Vision** via GROQ API
+- **Meta LLaMA 4 Scout 17b** via GROQ API
 - **OpenAI Whisper** (STT)
 - **ElevenLabs API** (TTS)
 - **Hugging Face Spaces** (deployment)
@@ -48,14 +48,15 @@ A multimodal AI-powered medical assistant that processes images, text, and voice
    source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
 4. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
 
-5. **Set your API keys**
+6. **Set your API keys**
    Create a .env file in the root directory with the following:
    ```bash
-OPENAI_API_KEY=your_openai_key
-ELEVENLABS_API_KEY=your_elevenlabs_key
-GROQ_API_KEY=your_groq_key
+   OPENAI_API_KEY=your_openai_key
+   ELEVENLABS_API_KEY=your_elevenlabs_key
+   GROQ_API_KEY=your_groq_key
 
 7. **Run the app**
    ```bash
